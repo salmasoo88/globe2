@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Interactive Research Globe</title>
+  <desc id="desc">A blue and violet digital globe banner with geographic markers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08152E"/><stop offset=".55" stop-color="#162D5A"/><stop offset="1" stop-color="#35165C"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#60A5FA" stop-opacity=".25"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#DBEAFE" opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/><rect width="1200" height="320" rx="28" fill="url(#dots)"/>
+  <circle cx="188" cy="160" r="150" fill="url(#halo)"/>
+  <g transform="translate(70 35)" fill="none" stroke="url(#accent)">
+    <circle cx="125" cy="125" r="104" stroke-width="4"/>
+    <path d="M21 125H229M125 21C84 62 84 188 125 229M125 21C166 62 166 188 125 229M36 77C84 104 166 104 214 77M36 173C84 146 166 146 214 173" stroke-width="2" opacity=".7"/>
+    <path d="M70 70L107 105L154 78L184 130L145 181L94 162Z" stroke="#FDE68A" stroke-width="2.5" opacity=".8"/>
+    <g fill="#FBBF24" stroke="#111827" stroke-width="3"><circle cx="70" cy="70" r="7"/><circle cx="154" cy="78" r="7"/><circle cx="145" cy="181" r="7"/></g>
+  </g>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="350" y="105" fill="#7DD3FC" font-size="18" font-weight="700" letter-spacing="4">GEOSPATIAL STORYTELLING PROTOTYPE</text>
+    <text x="346" y="174" fill="#FFFFFF" font-size="47" font-weight="800">INTERACTIVE RESEARCH GLOBE</text>
+    <rect x="350" y="198" width="165" height="4" rx="2" fill="url(#accent)"/>
+    <text x="350" y="247" fill="#D8E5F5" font-size="23">Discover research through countries, projects, and people</text>
+  </g>
+  <path d="M1200 75H1070L1035 110H970M1200 255H1080L1038 215H980" fill="none" stroke="#A78BFA" stroke-width="2" opacity=".45"/>
+  <g fill="#38BDF8"><circle cx="1070" cy="75" r="5"/><circle cx="1080" cy="255" r="5"/></g>
+  <rect x="2" y="2" width="1196" height="316" rx="26" fill="none" stroke="#7DD3FC" stroke-opacity=".2" stroke-width="2"/>
+</svg>
