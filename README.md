@@ -95,6 +95,17 @@ Each project entry can provide a title, location, principal investigator, descri
 > [!IMPORTANT]
 > This is an archived prototype snapshot. Some project records reference local video files that are not included in the repository, and an experimental on-page control remains unfinished. Restore or remove those references before creating a production build.
 
+## Contribution Guide
+
+The most valuable improvements for this prototype are:
+
+- removing unfinished interface controls and unused imports;
+- adding graceful fallbacks for missing project media;
+- improving map accessibility and responsive behaviour; and
+- aligning the Firebase Hosting directory with the generated React build output.
+
+Please keep each change focused and confirm that country selection, globe rotation, and project modals still work as expected.
+
 ## Deployment
 
 A Firebase Hosting configuration is provided in `firebase.json`. Confirm that its `public` directory matches the generated React build directory before deployment.
